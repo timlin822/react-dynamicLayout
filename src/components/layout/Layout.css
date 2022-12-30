@@ -1,0 +1,57 @@
+.row-content{
+    font-size: 14px;
+    font-weight: 400;
+    border: 2px solid #dfdfdf;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row-content-image{
+    width: 18%;
+}
+.row-content-title{
+    width: 8%;
+    text-align: center;
+    padding: 0px 2px;
+}
+.row-content-director{
+    width: 8%;
+    text-align: center;
+    padding: 0px 2px;
+}
+.row-content-actors{
+    width: 10%;
+    text-align: center;
+    padding: 0px 2px;
+}
+.row-content-type{
+    width: 10%;
+    padding: 0px 2px;
+}
+.row-content-summary{
+    width: 38%;
+    padding: 0px 2px;
+}
+.row-content-date{
+    width: 8%;
+    text-align: center;
+}
+
+/* ************************************* */
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+.grid-content{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    color: #151515;
+    line-height: 2;
+}
+.grid-content-title{
+    margin-top: 10px;
+}
